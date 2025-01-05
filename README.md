@@ -3,6 +3,11 @@
 
 -App created using create-react-app
 -Tailwaind css configured
+- Router Dom to setup routing npm i -D react-router-dom
+- Header
+- lOGIN Form
+- sign Up form
+
 
 # Features
 
