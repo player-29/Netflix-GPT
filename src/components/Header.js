@@ -40,7 +40,7 @@ const Header = () => {
       }
     });
 
-    // Unsiubscribe when component unmounts
+    // Unsusbscribe when component unmounts
     return () => unsubscribe();
   }, []);
 
@@ -70,12 +70,15 @@ const Header = () => {
               ))}
             </select>
           )}
+          
           <button
             className="py-2 px-4 mx-4 my-2 bg-purple-800 text-white rounded-lg"
             onClick={handleGptSearchClick}
           >
             {showGptSearch ? "Homepage" : "GPT Search"}
           </button>
+
+
           <img
             className="hidden md:block w-12 h-12"
             alt="usericon"

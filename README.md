@@ -37,6 +37,19 @@
 - embedded the utube video and autoplay and mute
 - added css 
 
+-secondary Component
+- ##Planning*
+- <Movie lists>
+- Popular
+- Trending
+- Documentary
+
+- Gpt Search Feature
+- Gpt Search Bar
+- Multilingual Feature For search page**
+
+
+
 # Features
 
 
