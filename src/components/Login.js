@@ -1,5 +1,4 @@
 
-
 import { useState, useRef } from "react";
 import Header from "./Header";
 import { checkValidData } from "../utils/validate";
@@ -86,7 +85,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img  src={BG_URL}
+        <img  className="h-screen w-screen object-cover" src={BG_URL}
             alt= "background"/>
       </div>
       <form

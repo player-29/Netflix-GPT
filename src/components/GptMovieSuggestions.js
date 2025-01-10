@@ -9,7 +9,7 @@ const GptMovieSuggestions = () => {
     <div className="p-4 m-4 bg-black text-white bg-opacity-90">
       <div>
         {movieNames.map((movieName, index) => (
-          <MovieList
+          <MovieList    // reusibility of MovieList, it is a custom component
             key={movieName}
             title={movieName}
             movies={movieResults[index]}

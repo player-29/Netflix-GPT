@@ -48,6 +48,8 @@
 - Gpt Search Bar
 - Multilingual Feature For search page**
 
+- "npm install --save openai"
+
 
 
 # Features

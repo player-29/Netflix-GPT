@@ -13,7 +13,7 @@ const Browse = () => {
   usePopularMovies();
 
   return (
-    <div>
+    <div className="absolute">
       <Header />
       {showGptSearch ? (
         <GptSearch />
